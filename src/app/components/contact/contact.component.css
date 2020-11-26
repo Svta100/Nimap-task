@@ -1,0 +1,30 @@
+.contact_img{
+    height:80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../../assets/image/Contact-Banner2.jpg);
+}
+.contact{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 20px;
+
+}
+
+.contact_icon i{
+    font-size: 35px;
+    padding: 15px 10px;
+    width: 75px;
+    cursor: pointer;
+    height: 75px;
+    
+
+} 
+.contact:hover .contact_icon i{
+    border: 2px solid gold;
+    border-radius: 35px;
+    color: gold;
+}
+.contact:hover{
+    background-color: gold;
+}

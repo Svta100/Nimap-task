@@ -1,0 +1,33 @@
+<header >
+  <nav class="navbar navbar-expand-lg fixed-top" [class.header_change]="header_variable">
+      <a class="navbar-brand ml-5" href="#">
+      <span class="h2 ml-lg-5 ml-sm-auto  text-center font-weight-bold ">Task<sup class="text-danger">*</sup></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">Home</span>
+      </button>
+      <div class="collapse navbar-collapse nanbar_menu" id="navbarNav">
+        <ul class="navbar-nav ml-auto mr-5">
+          <li class="nav-item ml-4 " routerLinkActive="active">
+              <a class="nav-link text-light" routerLink="home" href="#" (click)="setPageTitle('Home')"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li class="nav-item ml-4" routerLinkActive="active">
+            <a class="nav-link text-light" routerLink="about" href="#" (click)="setPageTitle('About')"><i class="fa fa-user"></i>About</a>
+          </li>
+        
+          <!-- <li class="nav-item ml-4 " routerLinkActive="active">
+            <a class="nav-link text-light" routerLink="additem" href="#" (click)="setPageTitle('AddItem')"><i class="fa fa-plus-square"></i>AddItem</a>
+          </li> -->
+          <!-- <li class="nav-item ml-4 " routerLinkActive="active">
+              <a class="nav-link text-light " routerLink="view" href="#" (click)="setPageTitle('ViewItem')"><i class="fa fa-eye"></i>ViewItem</a>
+            </li> -->
+          <li class="nav-item ml-4 " routerLinkActive="active">
+            <a class="nav-link text-light " routerLink="contact" href="#" (click)="setPageTitle('Contact')"><i class="fa fa-id-badge"></i>Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+  </nav>
+</header>
+ 

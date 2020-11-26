@@ -1,0 +1,52 @@
+{
+  "Student": [
+    {
+      "id": 1,
+      "firstName": "Vijay",
+      "lastName": "Kumar",
+      "address": "mumbai",
+      "class": "MCA",
+      "mobile": 1234567890
+    },
+    {
+      "id": 2,
+      "firstName": "Ajay",
+      "lastName": "Kumar",
+      "address": "delhi",
+      "class": "b.com",
+      "mobile": 1544567890
+    },
+    {
+      "firstName": "Anil",
+      "lastName": "pawar",
+      "class": "MCA",
+      "mobile": "45214563",
+      "address": "kariya Gopalpur",
+      "id": 3
+    },
+    {
+      "firstName": "SATVEER",
+      "lastName": "CHAWL",
+      "class": "BCOM",
+      "mobile": "1254563",
+      "address": "ANANDEY NAGAR",
+      "id": 4
+    },
+    {
+      "firstName": "SATVEER",
+      "lastName": "CHAWL",
+      "class": "BCOM",
+      "mobile": "1254563",
+      "address": "ANANDEY NAGAR",
+      "id": 5
+    },
+    {
+      "firstName": "pravin",
+      "lastName": "kumar",
+      "class": "ba",
+      "mobile": "45632145",
+      "address": "azamgarh",
+      "id": 6
+    }
+  ]
+}

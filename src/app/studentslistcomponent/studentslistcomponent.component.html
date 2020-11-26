@@ -1,0 +1,18 @@
+<table class="table  table-hover table-bordered">
+    <tr>
+        <th>S.NO</th>
+        <th>Fname</th>
+        <th>Lname</th>
+        <th>Addess</th>
+        <th>Class</th>
+        <th>Mobile</th>
+    </tr>
+    <tr *ngFor="let stu of allStudent let i=index;">
+        <td>{{stu.id}}</td>
+        <td>{{stu.firstName |uppercase}}</td>
+        <td>{{stu.lastName | uppercase}}</td>
+        <td>{{stu.address |uppercase}}</td>
+        <td>{{stu.class |uppercase}}</td>
+        <td>{{stu.mobile}}</td>
+    </tr>
+</table>

@@ -1,0 +1,33 @@
+.navbar-brand span{
+    color: rgba(255, 208, 0, 0.911);
+    animation: logo 2s infinite ;    
+}
+@keyframes logo{
+    from{
+        color: tomato;
+    }
+    to{
+        color:greenyellow;
+    }
+}
+
+
+/* menu bar */
+.nanbar_menu li a{
+    overflow: hidden;
+    transition: 0.5s ease-in;
+}
+.nanbar_menu li a:hover{
+    background-color: rgb(216, 167, 33);
+    border-radius: 10px;
+
+}
+
+.header_change{
+    position:fixed;
+    background-color:#342421;
+    width: 100%;
+    z-index: 1;
+    color:black;
+
+}

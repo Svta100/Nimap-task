@@ -1,0 +1,12 @@
+.about_img {
+    height: 75vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../../assets/image/About-Us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about_contain h1{
+    border-left: 5px solid gold;
+    border-bottom: 5px solid gold;
+    border-bottom-width:-1px;
+}

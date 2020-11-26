@@ -1,0 +1,18 @@
+<div class="viewitem_bg">
+
+</div>
+<br>
+<div class="container">
+    <h2 class="text-center font-weight-bold mb-5 ">Recent Post</h2>
+    <div class="row">
+        <div class="col-md-6 col-sm-12" *ngFor="let book of proCollection;">
+            <div class="card">
+                <h3 class="text-center text-capitalize font-weight-bold">{{book.title}}</h3>
+                <p>{{book.category}}</p>
+                <p>{{book.details}}</p>
+                <p>{{book.price}}</p>
+            </div>  
+        </div>
+    </div>
+    
+</div>
